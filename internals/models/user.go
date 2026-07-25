@@ -19,3 +19,9 @@ type Register struct {
 	Pin      string
 	Phone    string
 }
+
+type ChangeEmail struct {
+	NewEmail string
+	OldEmail string
+	otp      string
+}
