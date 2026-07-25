@@ -17,3 +17,9 @@ type CreateTopup struct {
 	User   int64
 	Amount float64
 }
+
+type ConfirmTopup struct {
+	User       int64
+	Amount     float64
+	References string
+}
