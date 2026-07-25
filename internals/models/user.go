@@ -37,3 +37,9 @@ type ChangePin struct {
 	Confirm string
 	otp     string
 }
+
+type ChangePhone struct {
+	Phone   string
+	Confirm string
+	otp     string
+}
