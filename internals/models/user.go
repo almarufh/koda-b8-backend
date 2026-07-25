@@ -12,3 +12,10 @@ type User struct {
 	UpdatedAt time.Time
 	CreatedBy time.Time
 }
+
+type Register struct {
+	Email    string
+	Password string
+	Pin      string
+	Phone    string
+}
