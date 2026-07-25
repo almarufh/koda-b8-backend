@@ -10,3 +10,8 @@ type Otp struct {
 	CreatedAt time.Time
 	ExpiredAt time.Time
 }
+
+type GenerateOtp struct {
+	IdUser int64
+	Code   string
+}
