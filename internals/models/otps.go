@@ -4,7 +4,7 @@ import "time"
 
 type Otp struct {
 	Id        int64
-	IdUser    int64
+	User      int64
 	Code      string
 	Used      bool
 	CreatedAt time.Time
@@ -12,6 +12,6 @@ type Otp struct {
 }
 
 type GenerateOtp struct {
-	IdUser int64
-	Code   string
+	User int64
+	Code string
 }
