@@ -12,3 +12,8 @@ type Topup struct {
 	ExpiredAt  time.Time
 	UpdatedAt  time.Time
 }
+
+type CreateTopup struct {
+	User   int64
+	Amount float64
+}
