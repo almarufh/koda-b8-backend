@@ -5,8 +5,7 @@ import (
 )
 
 type Profile struct {
-	Id        int64
-	IdUser    int64
+	User      int64
 	FirstName string
 	LastName  string
 	Birthday  time.Time
