@@ -21,7 +21,12 @@ type Register struct {
 }
 
 type ChangeEmail struct {
-	NewEmail string
-	OldEmail string
+	Email string
+	otp   string
+}
+
+type ChangePassword struct {
+	Password string
+	Confirm  string
 	otp      string
 }
